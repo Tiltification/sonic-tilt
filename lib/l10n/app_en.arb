@@ -1,0 +1,166 @@
+{
+    "warning": "Using this app with headphones could damage your hearing!",
+    "@warning": {
+    "description": "Warning text about hearing damage on splash screen"
+    },
+    "showAngles": "Show all Angles",
+    "@showAngles": {
+    "description": "Tooltip text for closed eye symbol"
+    },
+    "hideAngles": "Hide all Angles",
+    "@hideAngles": {
+    "description": "Tooltip text for open eye symbol"
+    },
+    "presetLabel": "PRESET",
+    "@presetLabel": {
+    "description": "Label for preset list in menu"
+    },
+    "presetButtonText": "Add Preset",
+    "@presetButtonText": {
+    "description": "Text for button to add preset inside dialogue and for tooltip for add button"
+    },
+    "angleDirection": "Angle direction",
+    "@angleDirection": {
+     "description": "Tooltip text for preset direction button"
+    },
+    "removePreset": "Remove preset",
+    "@removePreset": {
+         "description": "Tooltip text for remove preset button"
+    },
+    "automaticMode": "Automatic mode",
+    "@automaticMode": {
+    "description": "Tooltip text for automatic mode button"
+    },
+    "twoAxis": "Two Axis",
+    "@twoAxis": {
+    "description": "Tooltip text for two axis mode button"
+    },
+    "oneAxis": "One Axis",
+    "@oneAxis": {
+    "description": "Tooltip text for one axis mode button"
+    },
+    "automaticOrientation": "Automatic orientation",
+    "@automaticOrientation": {
+    "description": "Tooltip text for automatic screen orientation mode button"
+    },
+    "portraitMode": "Portrait mode",
+    "@portraitMode": {
+    "description": "Tooltip text for portrait mode button"
+    },
+    "landscapeMode": "Landscape mode",
+    "@landscapeMode": {
+    "description": "Tooltip text for landscape mode button"
+    },
+    "imprint": "Imprint",
+    "@imprint": {
+    "description": "Title for imprint dialogue"
+    },
+    "imprintText": "*TODO: if you publish this app, you can put your legal information here, like developer information/organization, address, etc.*",
+    "@imprintText": {
+    "description": "Text for imprint dialogue"
+    },
+    "imprintClose": "Close",
+    "@imprintClose": {
+    "description": "Text for button to close imprint dialogue"
+    },
+    "faqText": "*TODO: if you have information for your users, you can put it here in the FAQ-section*",
+    "@faqText": {
+    "description": "Text for FAQ dialogue"
+    },
+    "contact": "Contact",
+    "@contact": {
+    "description": "Text for title of contact dialogue"
+    },
+    "contactText": "*TODO: you can put your contact information like e-mail and website here*",
+    "@contactText": {
+    "description": "Text for contact dialogue"
+    },
+    "soundOn": "Sound on",
+    "@soundOn": {
+    "description": "Tooltip text for Sound On button"
+    },
+    "soundOff": "Sound off",
+    "@soundOff": {
+    "description": "Tooltip text for Sound Off button"
+    },
+    "locked": "Lock set",
+    "@locked": {
+    "description": "Tooltip text for lock mode menu button"
+    },
+    "unlocked": "Unlocked",
+    "@unlocked": {
+    "description": "Tooltip text for unlocked mode menu button"
+    },
+    "preset": "Preset",
+    "@preset": {
+    "description": "Menu label for preset icon"
+    },
+    "help": "Help",
+    "@help": {
+    "description": "Menu label for help icon"
+    },
+    "enterOffset": "Enter preset",
+    "@enterOffset": {
+    "description": "Label for text field to input preset value"
+    },
+    "errorValidAngle": "Please enter a valid angle",
+    "@errorValidAngle": {
+    "description": "Error message for when angle is not a valid number"
+    },
+    "errorAngle": "Angle must be between 1° and 45°",
+    "@errorAngle": {
+    "description": "Error message for when angle is not between 1 and 45 degrees"
+    },
+    "errorDuplicate": "Preset with this angle already exists",
+    "@errorDuplicate": {
+    "description": "Error message for when preset with this angle already exists"
+    },
+    "intro1": "On The Go",
+    "@intro1":{
+    "description": "First line of text on first intro screen"
+    },
+    "intro2": "Make sure everything is all\nleveled in one app",
+    "@intro2":{
+    "description": "Second line of text on first intro screen"
+    },
+    "intro3": "Your tools",
+    "@intro3":{
+    "description": "First line of text on second intro screen"
+    },
+    "intro4": "In one place",
+    "@intro4":{
+    "description": "Second line of text on second intro screen"
+    },
+    "intro5": "For your next woodworking \nfurniture project",
+    "@intro5":{
+    "description": "Third line of text on second intro screen"
+    },
+    "intro6": "Built for",
+    "@intro6":{
+    "description": "First line of text on third intro screen"
+    },
+    "intro7": "Home projects",
+    "@intro7":{
+    "description": "Second line of text on third intro screen"
+    },
+    "intro8": "Perfect for leveling pictures, frames\nand more when your cat ruins them",
+    "@intro8":{
+    "description": "Third line of text on third intro screen"
+    },
+    "skip": "Skip",
+    "@skip":{
+    "description": "Text for skip button on intro screen"
+    },
+    "next": "Next",
+    "@next":{
+    "description": "Text for next button on intro screen"
+    },
+    "faqLabel": "FAQ",
+    "@faqLabel":{
+    "description": "Label for FAQ button in help menu"
+    },
+    "inAppSound": "In-app sound only",
+    "@inAppSound":{
+    "description": "Tooltip text for in-app sound only option on button"
+    }
+}

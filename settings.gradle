@@ -1,0 +1,2 @@
+include ':PdCore'
+project(':PdCore').projectDir = new File(rootDir, 'android/pd-for-android/PdCore/')

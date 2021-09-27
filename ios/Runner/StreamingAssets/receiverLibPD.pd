@@ -1,0 +1,105 @@
+#N canvas 420 111 640 585 10;
+#X obj 46 252 == 0;
+#X obj 268 301 -;
+#X obj 268 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 338 301 -;
+#X obj 338 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 408 301 -;
+#X obj 408 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 191 248 == 0;
+#X obj 268 328 / 2;
+#X obj 338 328 / 2;
+#X obj 408 328 / 2;
+#X obj 113 261 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 674 301 -;
+#X obj 674 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 758 301 -;
+#X obj 758 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 843 301 -;
+#X obj 843 275 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 943 301 == 0;
+#X obj 128 194 r volume;
+#X obj 268 194 r targetX;
+#X obj 338 194 r targetY;
+#X obj 408 194 r targetZ;
+#X obj 549 194 r playerY;
+#X obj 478 194 r playerX;
+#X obj 619 194 r playerZ;
+#X obj 689 194 r obstacleX;
+#X obj 773 194 r obstacleY;
+#X obj 858 194 r obstacleZ;
+#X obj 44 194 r soundMute;
+#X obj 191 194 r pinkMute;
+#X obj 943 194 r obstacleMute;
+#X obj 130 159 s volume;
+#X obj 270 150 s targetX;
+#X obj 48 164 s soundMute;
+#X obj 191 166 s pinkMute;
+#X floatatom 272 62 5 0 0 0 - - -;
+#X obj 34 117 tgl 15 1 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 193 68 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 347 80 5 0 0.09 0 - - -;
+#X obj 352 137 s targetY;
+#X floatatom 694 76 5 0 0 0 - - -;
+#X obj 692 159 s obstacleX;
+#X obj 329 27 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -204786
+-1 -1 0 1;
+#X floatatom 484 101 5 0 0 0 - - -;
+#X obj 488 159 s playerX;
+#X floatatom 413 91 5 0 0.09 0 - - -;
+#X obj 418 150 s targetZ;
+#X obj 124 351 *;
+#X floatatom 130 110 5 0 0 0 - - -;
+#X obj 35 35 loadbang;
+#X msg 123 82 1;
+#X floatatom 35 75 5 0 0 0 - - -;
+#X obj 223 475 dac~;
+#X obj 136 416 osc~ 440;
+#X connect 0 0 48 0;
+#X connect 1 0 8 0;
+#X connect 2 0 1 0;
+#X connect 3 0 9 0;
+#X connect 4 0 3 0;
+#X connect 5 0 10 0;
+#X connect 6 0 5 0;
+#X connect 13 0 12 0;
+#X connect 15 0 14 0;
+#X connect 17 0 16 0;
+#X connect 20 0 2 0;
+#X connect 20 0 1 1;
+#X connect 21 0 3 1;
+#X connect 21 0 4 0;
+#X connect 22 0 6 0;
+#X connect 22 0 5 1;
+#X connect 23 0 3 0;
+#X connect 23 0 14 0;
+#X connect 24 0 1 0;
+#X connect 24 0 12 0;
+#X connect 25 0 5 0;
+#X connect 25 0 16 0;
+#X connect 26 0 13 0;
+#X connect 26 0 12 1;
+#X connect 29 0 0 0;
+#X connect 30 0 7 0;
+#X connect 37 0 34 0;
+#X connect 38 0 35 0;
+#X connect 39 0 40 0;
+#X connect 41 0 42 0;
+#X connect 43 0 33 0;
+#X connect 44 0 45 0;
+#X connect 46 0 47 0;
+#X connect 49 0 32 0;
+#X connect 50 0 51 0;
+#X connect 51 0 49 0;
+#X connect 52 0 37 0;
+#X connect 54 0 53 0;
+#X connect 54 0 53 1;

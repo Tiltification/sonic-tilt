@@ -1,0 +1,90 @@
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+apply plugin: 'com.android.application'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+sourceSets {
+    test {
+        java {
+            srcDirs = ["test/model"]
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'jniLibs',include:['*.so'] )
+    implementation project(":PdCore")
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.4.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation "org.mockito:mockito-core:1.+"
+}
+android {
+    compileSdkVersion 29
+ //   buildToolsVersion 30
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+
+    defaultConfig {
+        applicationId "open_source.sonic_tilt"
+        minSdkVersion 16
+        targetSdkVersion 29
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        ndk {
+            abiFilters "arm64-v8a", "armeabi-v7a", "x86", "x86_64"
+//            abiFilters "armeabi-v7a", "x86", "armeabi", "mips"
+        }
+    }
+
+    signingConfigs {	
+        release {	
+            // TODO: configure your release build
+        }	
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true	
+            testCoverageEnabled false
+            // signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
+        }
+        debug {	
+            signingConfig signingConfigs.debug	
+        }
+    }
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+            }
+        }
+    }
+
+}
+
+flutter {
+    source '../..'
+}

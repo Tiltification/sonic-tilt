@@ -1,0 +1,169 @@
+apply plugin: 'com.android.library'
+//apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+version = '1.1.1-SNAPSHOT'
+group = 'org.puredata.android'
+archivesBaseName = 'pd-core'
+
+dependencies {
+    api 'com.noisepages.nettoyeur:midi:1.0.0-rc1'
+    implementation 'com.noisepages.nettoyeur:midi:1.0.0-rc1'
+    implementation "androidx.legacy:legacy-support-v4:1.0.0"
+}
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+ //   buildToolsVersion rootProject.buildToolsVersion
+//    ndkVersion rootProject.ndkVersion
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion 29
+        versionCode 1
+        versionName version
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src/main/java', 'src/main/jni/libpd/java']
+            jniLibs.srcDir 'src/main/libs' //set .so files location to libs
+            jni.srcDirs = [] //disable automatic ndk-build call
+            res.srcDirs = ['src/main/res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs','src']
+        }
+
+        // Move the build types to build-types/<type>
+        // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
+        // This moves them out of them default location under src/<type>/... which would
+        // conflict with src/ being used by the main source set.
+        // Adding new build types or product flavors should be accompanied
+        // by a similar customization.
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+    buildTypes {
+        profile {
+        }
+    }
+
+    tasks.create(name: 'buildNative', type: Exec, description: 'Compile JNI source via NDK') {
+        commandLine getNdkBuildExecutablePath(),
+                '-C', file('src/main/jni').absolutePath,
+                '-j', Runtime.runtime.availableProcessors(),
+                'all',
+                'NDK_DEBUG=1'
+    }
+
+    // After ndk-build, copy libexpr.so to libexpr_tilde.so and libfexpr_tilde.so
+    buildNative.doLast {
+        def src = 'libexpr.so'
+        file('src/main/libs').eachDir() { dir ->
+            println "Cloning $src in $dir"
+            copy { from(dir) into(dir) include(src) rename(src, 'libexpr_tilde.so') }
+            copy { from(dir) into(dir) include(src) rename(src, 'libfexpr_tilde.so') }
+        }
+    }
+
+    tasks.create(name: 'cleanNative', type: Exec, description: 'Clean JNI object files') {
+        commandLine getNdkBuildExecutablePath(), '-C', file('src/main/jni').absolutePath, 'clean'
+    }
+
+    clean.dependsOn 'cleanNative'
+
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn 'buildNative'
+    }
+
+    libraryVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "${archivesBaseName}-${version}.aar"
+        }
+    }
+}
+
+def getNdkBuildExecutablePath() {
+    File ndkDir = android.ndkDirectory
+    if (ndkDir == null) {
+        throw new Exception('NDK location not found. Define location with ndk.dir in the ' +
+                'local.properties file or with an ANDROID_NDK_HOME environment variable.')
+    }
+    def isWindows = System.properties['os.name'].toLowerCase().contains('windows')
+    def ndkBuildFile = new File(ndkDir, isWindows ? 'ndk-build.cmd' : 'ndk-build')
+    if (!ndkBuildFile.exists()) {
+        throw new Exception("ndk-build executable not found: $ndkBuildFile.absolutePath")
+    }
+    ndkBuildFile.absolutePath
+}
+
+def siteUrl = 'https://github.com/libpd/pd-for-android'
+def gitUrl = 'https://github.com/libpd/pd-for-android.git'
+/*
+install {
+    repositories.mavenInstaller {
+
+        pom {
+            project {
+                packaging 'aar'
+
+                name 'Pure Data for Android'
+                url siteUrl
+
+                licenses {
+                    license {
+                        name 'BSD New'
+                        url 'https://raw.githubusercontent.com/libpd/pd-for-android/master/PdCore/LICENSE.txt'
+                    }
+                }
+
+                scm {
+                    connection gitUrl
+                    developerConnection gitUrl
+                    url siteUrl
+
+                }
+            }
+        }
+    }
+}
+*/
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+    archives javadocJar
+    archives sourcesJar
+}
+/**/
+bintray {
+    if (project.hasProperty("bintray.user") && project.hasProperty("bintray.apikey")) {
+        user = project.property("bintray.user")
+        key = project.property("bintray.apikey")
+    } else {
+        logger.info('Bintray user/apikey not found')
+    }
+
+    configurations = ['archives']
+    pkg {
+        repo = "maven"
+        name = "pd-for-android"
+        userOrg = 'pd-for-android'
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = ["BSD New"]
+        publish = false
+    }
+}
