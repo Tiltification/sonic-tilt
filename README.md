@@ -1,4 +1,6 @@
 ![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)
+[![DOI](https://zenodo.org/badge/410888798.svg)](https://zenodo.org/badge/latestdoi/410888798)
+
 
 # Sonic Tilt
 
@@ -7,6 +9,8 @@ Sonic Tilt is the open-source branch of Tiltification, the sound leveling app on
 In this document we will describe how to set up the development environment and explain a few implementation details that might be useful.
 
 The App is written in [flutter](https://flutter.dev/) and ships to both Android and iOS.
+
+If you use this software and/or want to cite it, please make sure to refer to it by the DOI linked at the top and to cite our ICAD paper (https://icad2021.icad.org/wp-content/uploads/2021/06/ICAD_2021_25.pdf) as well.
 
 ## Table of Contents
 
@@ -389,6 +393,8 @@ The source code for Sonic Tilt is licensed under the MIT License, a copy of whic
 Exception to this are several source files not authored by us, which include their own proprietary licenses, for example, some are licensed with the Apache license.
 
 We retain copyright for the Tiltification brand name (not for Sonic Tilt) and of the graphical assets of the **original Tiltification app**, which is currently on the appstores. Such assets include for example the app icon or intro-animations. We made sure to remove our copyrighted materials from this open-source version and replace them with placeholders, so you can play around with this version and distribute it without worry.
+
+Lastly, if you use this software and/or want to cite it, please make sure to refer to it by the DOI linked at the top and to cite our ICAD paper (https://icad2021.icad.org/wp-content/uploads/2021/06/ICAD_2021_25.pdf) as well.
 
 ## CI/CD for your own Project
 
