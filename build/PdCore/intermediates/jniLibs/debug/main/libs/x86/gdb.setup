@@ -1,0 +1,2 @@
+set solib-search-path C:/tiltification/sonic-tilt/android/PdCore/src/main/obj/local/x86
+directory C:/tiltification/AndroidSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot C:/tiltification/sonic-tilt/android/PdCore/src/main/jni/libpd/pure-data/src C:/tiltification/sonic-tilt/android/PdCore/src/main/jni/libpd/libpd_wrapper C:/tiltification/sonic-tilt/android/PdCore/src/main/jni/libpd/libpd_wrapper/util C:/tiltification/sonic-tilt/android/PdCore/src/main/jni/libpd/jni

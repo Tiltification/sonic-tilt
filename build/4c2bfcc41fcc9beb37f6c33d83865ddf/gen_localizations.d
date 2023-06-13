@@ -1,0 +1,1 @@
+ C:\\tiltification\\sonic-tilt\\.dart_tool\\flutter_gen\\gen_l10n\\app_localizations_en.dart C:\\tiltification\\sonic-tilt\\.dart_tool\\flutter_gen\\gen_l10n\\app_localizations.dart:  C:\\tiltification\\sonic-tilt\\l10n.yaml C:\\tiltification\\sonic-tilt\\lib\\l10n\\app_en.arb

@@ -1,0 +1,4 @@
+#Mon May 15 20:13:39 CEST 2023
+base.0=C\:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+path.0=classes.dex

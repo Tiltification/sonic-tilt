@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+	package
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:3:7-45
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:1-4:12
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		ADDED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml
+		INJECTED from C:\tiltification\sonic-tilt\android\PdCore\AndroidManifest.xml

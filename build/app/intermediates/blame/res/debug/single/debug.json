@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_launcher_icon48.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-hdpi\\launcher_icon48.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_device_list.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\6f5630099ad06e936d0ad8601ca17c61\\res\\layout\\device_list.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\raw_streamingassets.zip.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\raw\\streamingassets.zip"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_device_name.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\6f5630099ad06e936d0ad8601ca17c61\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\raw_silence.wav.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\build\\PdCore\\intermediates\\packaged_res\\debug\\raw\\silence.wav"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-mdpi_launcher_icon.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-mdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_launcher_icon.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xhdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\raw_extra_abs.zip.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\build\\PdCore\\intermediates\\packaged_res\\debug\\raw\\extra_abs.zip"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\build\\PdCore\\intermediates\\packaged_res\\debug\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_launcher_icon.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_launcher_icon.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_launch_background.xml.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable_din5.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\6f5630099ad06e936d0ad8601ca17c61\\res\\drawable\\din5.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\69af29dbae7c7b466155bfed5afe8555\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\tiltification\\sonic-tilt\\android\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\tiltification\\sonic-tilt\\build\\app\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\t_ziemer\\.gradle\\caches\\transforms-2\\files-2.1\\1398960ac29d6ff76e94b3ae61b35527\\res\\layout\\notification_media_cancel_action.xml"
+    }
+]
