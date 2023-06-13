@@ -80,13 +80,12 @@ class _FocusPathAnimatorState extends State<FocusPathAnimator>
 
     // color animations according to the validness of the tilt
     // and the recent mode
-    //umwebejo        ColorTween(begin: Color(0xffF2F2F2), end: Color(0xff5bdc97))
-    //umwebejo        ColorTween(begin: Color(0xff292b2e), end: Color(0xffF2F2F2))
     pathAcceptanceColorAnimation =
-        ColorTween(begin: Color(0xffF2F200), end: Color(0xff5bdc00))
+        ColorTween(begin: Color(0xffF2F2F2), end: Color(0xff5bdc97))
             .animate(controllerColorPath);
+
     middlePathModeSwitchColorAnimation =
-        ColorTween(begin: Color(0xff292b00), end: Color(0xffF2F200))
+        ColorTween(begin: Color(0xff292b2e), end: Color(0xffF2F2F2))
             .animate(controllerMiddleColorPath);
   }
 
@@ -100,7 +99,7 @@ class _FocusPathAnimatorState extends State<FocusPathAnimator>
                   alignment: Alignment.center,
                   height: 70,
                   width: 70,
-              child: CustomPaint(
+                  child: CustomPaint(
                     size: Size(1100, 600),
                     // returning the focus path painter and
                     // giving it the animations as well as the controller for them
@@ -117,9 +116,8 @@ class _FocusPathAnimatorState extends State<FocusPathAnimator>
                         pathThreeLineToWidthAnimation,
                         pathThreeLineToHeightAnimation,
                         pathAcceptanceColorAnimation,
-                        middlePathModeSwitchColorAnimation
-                    ),
-              )));
+                        middlePathModeSwitchColorAnimation),
+                  )));
         });
   }
 

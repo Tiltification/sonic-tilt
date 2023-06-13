@@ -664,7 +664,6 @@ class _OneDLevelState extends State<OneDLevel> with WidgetsBindingObserver, Tick
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 30,
-              color: LevelTheme.darkModeYellow
             )));
   }
 

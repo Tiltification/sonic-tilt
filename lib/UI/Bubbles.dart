@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -153,8 +152,7 @@ class _BubblesState extends State<Bubbles> with TickerProviderStateMixin {
                           child: Container(
                               width: 300,
                               height: 300,
- //umwebejo                             child: Rive(artboard: _artboardMainBubble)
-                          )))))),
+                              child: Rive(artboard: _artboardMainBubble))))))),
       AnimatedContainer(
           // animated controller to animate the changing position of the layer according to the mode
           duration: Duration(milliseconds: 500),
@@ -454,7 +452,7 @@ class _BubblesState extends State<Bubbles> with TickerProviderStateMixin {
         currentBubbleState = state;
         FocusPathPainter.setValidness(state == 3);
         _artboardMainBubble.artboard
-            ..addController(SimpleAnimation(
+          ..addController(SimpleAnimation(
               riveFile2DBubbleOneAnimationNames[state],
               mix: 1));
       }
