@@ -60,7 +60,6 @@ class FocusPathPainter extends CustomPainter {
     } else {
       _controllerPathManipulation.forward();
       _controllerMiddleColorPath.reverse();
-
     }
     // manipulate the color of the paths according to the validness
     // if it is centered perfectly, turn the color green
