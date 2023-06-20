@@ -4,6 +4,8 @@
 
 # Sonic Tilt
 
+SonicLevel-PobbleBonk
+
 Sonic Tilt is the open-source branch of Tiltification, the sound leveling app on both iOS and Android. For more information, check out our [website](https://tiltification.uni-bremen.de/).
 
 In this document we will describe how to set up the development environment and explain a few implementation details that might be useful.
@@ -359,8 +361,8 @@ Supported languages are defined in the build function of the different App scree
         const Locale('en', ''),
         // English, no country code
         // add your other supported languages here
-      ],[...]
-    );}}
+      ],
+    );}
 ```
 
 To add a new language, look up the language and, if necessary, the country code and add it to the `supportedLocales`-array. The first language there is treated as the standard language, which in this case is English. The actual translations are stored in the `lib\l10n` folder as `.arb`-files with filenames in `app_CountryCode_LanguageCode(if necessary)_ScriptCode(if necessary)` format (for example `app_en.arb`).
